@@ -16,7 +16,7 @@ import com.example.actors.HelloWorldActor
  *
  * @author alias
  */
-object AkkaTestSimpleMain {
+object HelloSimpleMain {
 
   def main(args: Array[String]): Unit = {
     val initialActor = classOf[HelloWorldActor].getName
